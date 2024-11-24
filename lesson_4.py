@@ -1,6 +1,3 @@
-dict = {'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5}
-new_dict = {}
-for key, value in dict.items():
-    if value >= 3:
-        new_dict[key] = value
-print(new_dict)
+import random
+numbers = [0, 99, 100, 53, 44, 23, 4, 8, 16, 15, 77, 51]
+print(random.choice(numbers))
