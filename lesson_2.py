@@ -1,7 +1,3 @@
 s = 'bfgshbkis'
-s1 = str()
-ibs = ['i', 'b', 's']
-for char in ibs:
-    if char in s:
-        s1 += char
+s1 = s[7:1:-2]
 print(s1)
