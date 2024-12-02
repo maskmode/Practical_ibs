@@ -9,6 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 driver_path = ChromeDriverManager().install()
 driver = webdriver.Chrome(service=Service(driver_path))
 
+
 try:
     driver.get("http://google.com/ncr")
     print("Шаг 1: Открыта страница http://google.com/ncr")
